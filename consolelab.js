@@ -59,8 +59,8 @@ displaySkill("Beginner in Web Development", true);
 
 function displaySkill(skills, BAM) {
   if (BAM == true) {
-    console.log("*  BAM: " + mySkill);
+    console.log("*  BAM: " + skills);
   } else {
-    console.log("*  " + mySkill);
+    console.log("*  " + skills);
   }
 }
