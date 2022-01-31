@@ -1,10 +1,24 @@
-let fullName = "Kurtis Duane Butler";
-console.log("Name: " + fullName.toUpperCase());
-let jobTitle = ["Security Guard"];
-let personalDescripton = [
+const fullName = "Kurtis Duane Butler";
+
+
+const jobTitle = ["Security Guard"];
+const personalDescripton = [
   "I am a male, 6 feet tall, i love playing video games",
 ];
-let interests = ["Games, Anime, Computers, Excercising"];
+const interests = ["Games, Anime, Computers, Excercising"];
+
+console.log("Name: " + fullName.toUpperCase());
+console.log("Title: " + jobTitle);
+console.log("Descripton: " + jobTitle);
+console.log(" ")
+console.log("My Interests:")
+
+for (let i = 0; i < interests.length; i++) {
+  console.log("* " + interests[i]);
+  
+}
+
+
 let pastPositions = [
   {
     Company: "Chickfila",
